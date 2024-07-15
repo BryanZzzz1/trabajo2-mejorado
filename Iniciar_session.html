@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUTOS DEL MAR - Iniciar Sesión</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="./inicionuevo.html" class="nav_logo">AUTOS DEL MAR</a>
+      <ul class="nav_items">
+        <li class="nav_item">
+          <a href="./inicionuevo.html" class="nav_link">Inicio</a>
+          <a href="./Vehiculos.html" class="nav_link">Vehículos</a>
+          <a href="#" class="nav_link">Servicios</a>
+          <a href="./cotizaciones.html" class="nav_link">Cotizar</a>
+        </li>
+      </ul>
+      <button class="button" id="form-open">Iniciar Sesión</button>
+    </nav>
+  </header>
+  
+  <video autoplay muted loop id="video-background">
+    <source src="./img/video/iniciosession.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <section class="home">
+    <div class="form_container">
+      <i class="uil uil-times form_close"></i>
+      <div class="form login_form">
+        <form id="loginForm">
+          <h2>Iniciar Sesión</h2>
+          <div class="input_box">
+            <input type="text" id="username" placeholder="Ingresa tu Usuario" required />
+          </div>
+          <div class="input_box">
+            <input type="password" id="password" placeholder="Ingresa tu Contraseña" required />
+          </div>
+          <div id="loginMessage" class="error_message"></div>
+          <button type="submit" class="button">Entrar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/scriptsesion.js"></script>
+</body>
+</html>

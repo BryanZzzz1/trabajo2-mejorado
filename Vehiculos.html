@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTOS DEL MAR - Vehiculos</title>
+    <link rel="stylesheet" href="./css/Footer.css">
+    <link rel="stylesheet" href="./css/StyleVehiculos.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/carrito.css">
+    
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.438);">
+
+  <header class="header">
+    <nav class="nav">
+        <a href="./inicionuevo.html" class="nav_logo">AUTOS DEL MAR</a>
+        <ul class="nav_items">
+            <li class="nav_item">
+                <a href="./inicionuevo.html" class="nav_link">Inicio</a>
+                <a href="./Vehiculos.html" class="nav_link">Vehiculos</a>
+            </li>
+        </ul>
+        <a href="./Iniciar_session.html" class="button" id="form-open">Iniciar Sesión</a>
+        <a class="button" id="toggle-cart-button">Abrir carrito</a>
+        
+    </nav>
+
+</header>
+<h1 style="visibility: hidden;">texto invisible</h1>
+<h1 style="visibility: hidden;">texto invisible</h1>
+<h1 style="visibility: hidden;">texto invisible</h1>
+<h1 style="visibility: hidden;">texto invisible</h1>
+<h1 style="text-align: center; background-color: black; padding: 30PX; width: 50%; margin: 0% auto;">LISTA DE VEHICULOS DISPONIBLES</h1>
+<div class="container" id="autos-container" >
+</div>
+  <footer>
+    <div class="container">
+        <div class="footer-content">
+          <h3>Contactanos </h3>
+          <p>Email:Autosdelmar@mar.cl</p>
+          <p>Telefono:+569001002003</p>
+          <p>Direccion:Santiago - Av. Departamental 4500 </p>
+        </div>
+        <div class="footer-content">
+            <h3>Liks Rapidos</h3>
+             <ul class="list">
+                <li><a style="text-decoration: none; color: #ffffff;" href="./inicionuevo.html">inicio</a></li>
+                <li><a style="text-decoration: none; color: #ffffff;" href="./Deportivos.html">Vehiculos</a></li>
+
+             </ul>
+        </div>
+        <div class="footer-content">
+            <h3>Siguenos</h3>
+            </div>
+    </div>
+    <div class="bottom-bar">
+        <p>&copy; 2024 AUTOS DEL MAR . All rights reserved</p>
+    </div>
+  </footer> 
+    <script src="./js/script.js"></script>
+
+
+
+    <div id="carrito-overlay" class="carrito-overlay">
+      <div class="carrito">
+          <button id="close-button" class="close-button">Cerrar carrito</button>
+          <div id="carrito-container" class="carrito-container"></div>
+          <div id="carrito-total" class="carrito-total"></div>
+          <button id="comprar-carrito" class="button">Comprar Carrito</button>
+      </div>
+  </div> 
+</body>
+</html>
